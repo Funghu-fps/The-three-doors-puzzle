@@ -47,7 +47,7 @@ def main():
 ## main loop
 while run:
     repeat = int(input("repeat"))
-    doornum = int(input("door number (bigger that 2)"))
+    doornum = int(input("door number (bigger than 2)"))
     time1 = time.time()
     while repcount <= repeat:
         doorlist = []
